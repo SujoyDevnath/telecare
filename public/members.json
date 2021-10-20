@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/hCF6PmB/member-1.jpg",
+        "name": "Aaron Bright",
+        "designation": "Founder"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/CKyQwpq/member-2.jpg",
+        "name": "Jeane Andrea",
+        "designation": "CEO"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/374P51q/member-3.jpg",
+        "name": "Diana Minn",
+        "designation": "CFO"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/6BQZvYt/member-4.jpg",
+        "name": "Alexandro",
+        "designation": "CTO"
+    }
+]

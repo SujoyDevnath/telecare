@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/vYkmxzq/puzzle-jigsaw-heart-on-brain-mental-health-concept-world-autism-awareness-day.jpg",
+        "title": "psychotherapy",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 7,
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/pd7cF3r/Human-heart-with-ecg-graph-3d-illustration.jpg",
+        "title": "Cardiology",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 5,
+        "price": 15.99
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/XtGnr0q/Dermatitis-eczema-allergy-psoriasis-concept-Annoyed-middle-aged-man-in-white-t-shirt-scratching-itch.jpg",
+        "title": "Allergic diseases",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 6,
+        "price": 7.99
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/HngDzTF/Healthy-lifestyle-concepts-red-heart-shape-plate-with-fresh-organic-fruits-and-vegetables-shot-on-bl.jpg",
+        "title": "Diet control",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 2,
+        "price": 8.99
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/R2FkYKh/Close-up-of-a-mother-and-daughter-consulting-with-their-doctor-over-a-video-call-on-their-digital-ta.jpg",
+        "title": "Child Health",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 9,
+        "price": 9.99
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/X5wZz1f/corona-virus.jpg",
+        "title": "Covid-19 Care",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 3,
+        "price": 15.99
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/1ZVZw1W/Neuron-cells-system-disease-3d-rendered-image-of-Neuron-cell-network-on-black-background-Interconnec.jpg",
+        "title": "Neural Disease",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 8,
+        "price": 17.99
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/wKcm2fK/Medicine.jpg",
+        "title": "Medicine",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 6,
+        "price": 9.99
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/FnppcRP/Woman-drawing-blood-with-lancet-at-home-closeup-Blood-glucose-control-in-diabetes-mellitus-concept.jpg",
+        "title": "Diabetology",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 4,
+        "price": 12.99
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/fFp2dVW/infection.jpg",
+        "title": "Infectious Disease",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 6,
+        "price": 10.99
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/FH2NRzZ/fitness.jpg",
+        "title": "Fitness Instruction",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 2,
+        "price": 8.99
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/d2D6gNy/Happy-asian-woman-wearing-headphones-and-holding-video-call-with-clients-on-laptop-at-home-consultin.jpg",
+        "title": "Speech Therapy",
+        "description": "Toothsome, strictly used, refers to edible and pleasant food, or you could even write tasty, appetizing or delicious instead, something really pleasant to the sense of taste. But you will see it very often meaning healthy food, good tasting food that has something more than good taste going for it.",
+        "tests": 3,
+        "price": 13.99
+    }
+]

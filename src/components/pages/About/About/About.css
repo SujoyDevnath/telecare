@@ -1,0 +1,14 @@
+.about {
+    height: 88vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-heading {
+    font-weight: bolder;
+    font-size: 70px;
+}
