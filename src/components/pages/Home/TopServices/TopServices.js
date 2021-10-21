@@ -1,9 +1,9 @@
 import { Card, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useServices from '../../../Hooks/useServices';
+import useAuth from '../../../Hooks/useAuth';
 
 const TopServices = () => {
-    const [services] = useServices();
+    const { services } = useAuth();
     const filteredServices = services.filter(service => service.id <= 4)
     return (
         <div className="container">
@@ -21,7 +21,7 @@ const TopServices = () => {
                                     <h4 className="text-start">{title}</h4>
                                     <div className="d-flex justify-content-between align-items-center mb-2">
                                         <span className="price">${price}</span>
-                                        <span className="duration rounded-pill">{tests}</span>
+                                        <Link to={`/service/${id}`}><button className="btn-primary">Details</button></Link>
                                     </div>
                                 </Card.Body>
                             </Card>

@@ -20,7 +20,6 @@ input[type=text], input[type=password] {
     margin: 10px 0;
     border: none;
     cursor: grab;
-    width: 48%;
 }
 .login {
     text-align:center;

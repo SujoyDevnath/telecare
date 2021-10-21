@@ -34,3 +34,14 @@
 .card-style {
     height: 260px;
 }
+
+@media only screen and (max-width: 688px) {
+    .picture>h1 {
+        font-size: 30px;
+    }
+    .picture>p {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

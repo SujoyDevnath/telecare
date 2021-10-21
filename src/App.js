@@ -11,6 +11,8 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import About from './components/pages/About/About/About';
 import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Service from './components/Service/Service';
 
 function App() {
   return (
@@ -28,12 +30,15 @@ function App() {
             <Route path="/services">
               <Services></Services>
             </Route>
-            <Route path="/doctors">
+            <PrivateRoute path="/service/:serviceId">
+              <Service></Service>
+            </PrivateRoute>
+            <PrivateRoute path="/doctors">
               <Doctors></Doctors>
-            </Route>
-            <Route path="/about">
+            </PrivateRoute>
+            <PrivateRoute path="/about">
               <About></About>
-            </Route>
+            </PrivateRoute>
             <Route path="/contact">
               <Contact></Contact>
             </Route>

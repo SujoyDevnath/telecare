@@ -15,8 +15,8 @@ const Slider = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>Good environment for practice</h3>
-                    <p>Here you can get proper space to practice</p>
+                    <h3>Helpful environment</h3>
+                    <p>Here you can get prescription by good doctors and helpful environment</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -28,8 +28,8 @@ const Slider = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>International oppertunity</h3>
-                    <p>After completing a course from here you can get a chance to play in international level</p>
+                    <h3>Good doctors</h3>
+                    <p>Here you can get good treatment by good doctors</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -42,7 +42,7 @@ const Slider = () => {
 
                 <Carousel.Caption>
                     <h3>24/7 support</h3>
-                    <p>Here you can get 100% support anytime. Our trainers are always ready to help you</p>
+                    <p>Here you can get 100% support anytime. Our doctors are always ready to help you</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

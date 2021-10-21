@@ -2,9 +2,12 @@ import { Card, Col, Row, Spinner } from 'react-bootstrap';
 import useServices from '../../Hooks/useServices';
 import serviceImage from '../../../images/services.jpg'
 import './Services.css';
+import { Link } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth';
 const Services = () => {
     // getting data from hooks
-    const [services] = useServices();
+    const { services } = useAuth();
+    console.log(services);
     return (
         <div>
             <header>
@@ -21,7 +24,7 @@ const Services = () => {
                     {
                         services.map(service => {
                             // destructuring service object
-                            const { picture, title, tests, price, id } = service;
+                            const { picture, title, price, id } = service;
                             return (<Col key={id}>
                                 <Card className="card">
                                     {/* card-img container */}
@@ -33,7 +36,7 @@ const Services = () => {
                                         <h4 className="text-start">{title}</h4>
                                         <div className="d-flex justify-content-between align-items-center mb-2">
                                             <span className="price">${price}</span>
-                                            <span className="duration rounded-pill">{tests}</span>
+                                            <Link to={`/service/${id}`}><button className="btn-primary">Details</button></Link>
                                         </div>
                                     </Card.Body>
                                 </Card>

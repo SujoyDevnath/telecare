@@ -13,7 +13,7 @@ const GetInTouch = () => {
             {/* Get in touch section */}
             <section className="container">
                 <h1 className="py-5 fw-bold">Get In Touch</h1>
-                <div className="row">
+                <div className="row gy-5">
                     {/* column - 1 */}
                     <div className="col-sm-6 col-lg-3">
                         <div className="card card-style">
