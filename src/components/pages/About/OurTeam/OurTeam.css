@@ -1,16 +1,11 @@
+
+/* out team styling */
+
 .card-image {
     height: 300px;
     overflow: hidden;
     position: relative;
 }
-/* .card-image::before {
-    content: '';
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 100%;
-    z-index: 1;
-} */
 .overlay {
     top: 100%;
     background-color: rgba(0, 0, 0, 0.5);

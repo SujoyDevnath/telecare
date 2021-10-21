@@ -7,6 +7,7 @@ import './About.css'
 const About = () => {
     return (
         <div>
+            {/* this is about header */}
             <header>
                 <div className="about" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(${about})` }}>
                     <h1 className="about-heading">ABOUT</h1>

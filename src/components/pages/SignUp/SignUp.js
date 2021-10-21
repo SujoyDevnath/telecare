@@ -5,11 +5,13 @@ import './SignUp.css'
 import { useHistory, useLocation } from 'react-router';
 
 const SignUp = () => {
+    // handling sign up data
     const { allContext } = useAuth();
     const { setUser, getName, getEmail, getPassword, singUp, signInUsingGoogle, setIsLoading, error } = allContext;
     const location = useLocation();
     const history = useHistory();
 
+    // sign up redirects
     const redirect_url = location.state?.from || '/home';
     const handleGoogleLogin = () => {
         signInUsingGoogle()
@@ -34,6 +36,7 @@ const SignUp = () => {
                 </div>
                 <button type="submit" className="submit w-50"><strong>SIGN UP</strong></button>
                 <br />
+                {/* google sign in button */}
                 <button className="btn btn-danger w-50 py-3 fw-bold mb-3" onClick={handleGoogleLogin}>Continue With Google</button>
                 <br />
                 <Link to="/login" className="text-decoration-none">Already Have An Account</Link>

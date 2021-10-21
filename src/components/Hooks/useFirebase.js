@@ -21,6 +21,7 @@ const useFirebase = () => {
 
     const auth = getAuth();
 
+    // Google signin
     const signInUsingGoogle = () => {
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
@@ -33,7 +34,7 @@ const useFirebase = () => {
         e.preventDefault();
         return signInWithEmailAndPassword(auth, email, password);
     }
-    // set name and profile image url
+    // set name url
     function setNameFunction() {
         updateProfile(auth.currentUser, {
             displayName: name,
@@ -59,6 +60,7 @@ const useFirebase = () => {
         return () => unsubscribed;
     }, [])
 
+    // log out function
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)

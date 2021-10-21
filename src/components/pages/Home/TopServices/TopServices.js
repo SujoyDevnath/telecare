@@ -3,15 +3,17 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 
 const TopServices = () => {
+    // managing Top services data
     const { services } = useAuth();
-    const filteredServices = services.filter(service => service.id <= 4)
+    const filteredServices = services.filter(service => service.id <= 8)
     return (
         <div className="container">
             <h1 className="py-5 fw-bold">Top Services</h1>
             <Row xs={1} md={4} className="g-4">
                 {
                     filteredServices.map(fService => {
-                        const { picture, title, tests, price, id } = fService;
+                        // destructuring fSerice
+                        const { picture, title, price, id } = fService;
                         return (<Col key={id}>
                             <Card className="card">
                                 <div className="img-container">

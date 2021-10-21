@@ -7,6 +7,8 @@ import img3 from '../../../../images/helpful-doctors.jpg'
 const Slider = () => {
     return (
         <Carousel>
+
+            {/* carousel item - 1 */}
             <Carousel.Item>
                 <img
                     className="d-block w-100 img-style"
@@ -19,6 +21,8 @@ const Slider = () => {
                     <p>Here you can get prescription by good doctors and helpful environment</p>
                 </Carousel.Caption>
             </Carousel.Item>
+
+            {/* carousel item - 2 */}
             <Carousel.Item>
                 <img
                     className="d-block w-100 img-style"
@@ -26,12 +30,13 @@ const Slider = () => {
                     src={img2}
                     alt="Second slide"
                 />
-
                 <Carousel.Caption>
                     <h3>Good doctors</h3>
                     <p>Here you can get good treatment by good doctors</p>
                 </Carousel.Caption>
             </Carousel.Item>
+
+            {/* carousel item - 3 */}
             <Carousel.Item>
                 <img
                     className="d-block w-100 img-style"
@@ -39,7 +44,6 @@ const Slider = () => {
                     src={img3}
                     alt="Third slide"
                 />
-
                 <Carousel.Caption>
                     <h3>24/7 support</h3>
                     <p>Here you can get 100% support anytime. Our doctors are always ready to help you</p>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './NotFound.css'
 
 const NotFound = () => {
+    // not found component
     return (
         <div className="not-found container m-5 mx-auto">
             <img src="https://i.ibb.co/VNKFzVH/not-found-1.png" className="img-fluid" alt="" />

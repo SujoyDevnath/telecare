@@ -1,5 +1,4 @@
 import { Card, Col, Row, Spinner } from 'react-bootstrap';
-import useServices from '../../Hooks/useServices';
 import serviceImage from '../../../images/services.jpg'
 import './Services.css';
 import { Link } from 'react-router-dom';
@@ -7,7 +6,6 @@ import useAuth from '../../Hooks/useAuth';
 const Services = () => {
     // getting data from hooks
     const { services } = useAuth();
-    console.log(services);
     return (
         <div>
             <header>

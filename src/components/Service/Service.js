@@ -1,15 +1,16 @@
 import Button from '@restart/ui/esm/Button';
-import React, { useState } from 'react';
+import React from 'react';
 import { Card } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import useAuth from '../Hooks/useAuth';
 
 const Service = () => {
+    // handling service data
     const { serviceId } = useParams()
     const { services } = useAuth();
     const selectedService = services.find((service) => service.id === Number(serviceId));
-
     const { picture, title, price, tests, description } = selectedService;
+
     return (
         <div>
             <div className="d-flex justify-content-center align-items-center py-5">
